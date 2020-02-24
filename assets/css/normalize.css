@@ -1,0 +1,278 @@
+/* Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115) */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: 'Work Sans', ;
+    background-color: #2e2e2e;
+}
+
+/* ###---HEADER---### */
+
+header{
+    margin: top;
+    
+    
+
+}
+.logo{
+    
+    margin-left: 3.5%;
+    position: fixed;
+}
+
+
+.header {
+    width:100%;
+    background: #2e2e2e;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ###---NAVIGATION--### */
+
+.navbar1{
+    position: fixed;
+    margin-top: 21vh;
+    margin-left: 1%;
+}
+.navbar1 ul{
+
+    list-style-type: none;
+}
+.navbar1 ul > li{
+    margin-bottom: 9vh;
+    font-family: 'Work Sans', ;
+}
+.navbar1 ul > li > section{
+    display: flex;
+    text-decoration: none;
+    
+}
+.navbar1 ul > li > section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circles{
+    position: relative;
+}
+.circle1{
+    color: #fff ;
+    font-size: 28px;
+    opacity: 0.1;
+}
+.circle1-2{
+    color: #fff ;
+    font-size: 27px;
+    opacity: 1;
+}
+.circle2{
+   
+    font-size: 15px;
+    color:#ebccc2;
+    right: 23%;
+    top: 0.8vh;
+    position: absolute;
+}
+.navbar1 ul > li > section > span{
+    margin-left: 19%;
+    color:black;
+}
+
+.navbar1 ul > li > section > span > a{
+
+    font-family: 'Work Sans', ;
+    color: #fff  ;
+    transition: 0.7s;
+    text-decoration: none;
+}
+.navbar1 ul > li > section > span > a:hover {
+    
+    color: #fff ;
+    transition: 0.7s;
+}
+.linien{
+    position: absolute;
+    top: 4vh;
+    width: 2px;
+    background-color: #fff ;
+    opacity: 0.4;
+    height: 7vh;
+}
+
+.heading {
+    color:rgb(234, 204, 194);
+    font-size: 4rem;
+    font-weight: 300;
+    width:30%;
+    /* position: absolute;
+    top:15%;
+    left: 30%; */
+    margin: 10% 0;
+}
+
+.header-block {
+    height: 100vh;
+    width:90%;
+    /* margin: 30% auto; */
+}
+
+.header-img {
+    width:100%;
+    height: 100%;
+}
+
+.lounger {
+    display: flex;
+    align-items: center;
+}
+
+/* Lounger-art*/
+
+.lounger-article {
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    line-height: 2;
+    margin-top: -80px;
+}
+
+.lounger-title {
+    margin-bottom: 10rem;
+}
+
+/*  lounger-img  */
+
+.lounger-block {
+    width:60%;
+    height: 100vh;
+}
+
+.lounger-img {
+    width:100%;
+    height: 100%;
+}
+
+
+.inspiration-block {
+    width:100%;
+    height: 50%;
+    margin-top: 5%;
+
+}
+
+.inspiration-img {
+    width:100%;
+    height: 100%;
+}
+.inspiration-flex {
+    width:70%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inspiration-2 {
+    height: 25vh;
+    margin: 10% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inspiration-subtitle {
+    color: #ebccc2;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.inspiration-title {
+    color: #ebccc2;
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.inspiration-btn {
+    outline:none;
+    border:1px solid #ebccc2;
+    background: rgba(0,0,0,0);
+    color: #867772;
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.inspiration-paragraph {
+    color:#867772;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.inspiration-3 {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.inspiration-3-a, .inspiration-3-b {
+
+    width:100%;
+    display: flex;
+}
+.inspiration-article {
+    align-self: center;
+    margin-left: 30px;
+}
+.inspiration-3-img {
+    width:50%;
+    height: 40%;
+}
+.order {
+    order: 1;
+}
+
+
+.inspiration-3-img {
+    margin-left: 120px;
+}
+
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.shop-btn {
+    padding: 10px 20px;
+    background: #ebccc2;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.shop-subtitle {
+    margin-bottom: 20px;
+}
+
